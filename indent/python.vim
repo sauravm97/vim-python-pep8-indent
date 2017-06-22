@@ -30,9 +30,9 @@ setlocal nolisp
 setlocal autoindent
 setlocal indentexpr=GetPythonPEPIndent(v:lnum)
 setlocal indentkeys=!^F,o,O,<:>,0),0],0},=elif,=except
-setlocal tabstop=4
-setlocal softtabstop=4
-setlocal shiftwidth=4
+setlocal tabstop=2
+setlocal softtabstop=2
+setlocal shiftwidth=2
 
 if !exists('g:python_pep8_indent_multiline_string')
     let g:python_pep8_indent_multiline_string = 0
